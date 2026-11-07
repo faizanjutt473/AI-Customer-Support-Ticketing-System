@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sign in · SupportDesk AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body data-page="login">
+<div class="login">
+  <section class="l">
+    <h1>Answer customers faster, with AI doing the sorting.</h1>
+    <ul>
+      <li>Tickets are classified and prioritised automatically</li>
+      <li>Angry customers are flagged before they wait</li>
+      <li>Suggested replies come from your knowledge base</li>
+      <li>SLA deadlines stay visible for every agent</li>
+    </ul>
+  </section>
+  <section class="r">
+    <form method="post">
+      <h2 style="font-size:26px">Sign in</h2>
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}<p class="b b-Urgent" style="margin-top:10px">{{ messages[0] }}</p>{% endif %}
+      {% endwith %}
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required autofocus>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required>
+      <p style="margin-top:16px"><button class="btn" style="width:100%">Sign in</button></p>
+    </form>
+  </section>
+</div>
+</body>
+</html>

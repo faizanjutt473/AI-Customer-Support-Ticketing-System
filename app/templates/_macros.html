@@ -1,0 +1,3 @@
+{% macro badge(value, cls=None) %}<span class="b b-{{ (cls or value)|replace(' ', '') }}">{{ value }}</span>{% endmacro %}
+
+{% macro status_badge(value) %}<span class="b b-{{ 'Progress' if value == 'In progress' else value }}">{{ value }}</span>{% endmacro %}

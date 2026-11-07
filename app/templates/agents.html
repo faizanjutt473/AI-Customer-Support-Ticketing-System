@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% set active_page = 'agents' %}
+{% from "_macros.html" import badge %}
+{% block title %}Agents &amp; SLA{% endblock %}
+{% block heading %}Agents &amp; SLA{% endblock %}
+{% block sub %}Team performance and response targets{% endblock %}
+
+{% block content %}
+<div class="g3">
+  <section class="card">
+    <h2>Agent performance</h2>
+    <div class="tw">
+      <table>
+        <thead><tr><th>Agent</th><th>Open</th><th>Resolved</th><th>Avg first reply</th><th>SLA met</th></tr></thead>
+        <tbody>
+          {% for r in rows %}
+          <tr>
+            <td><b>{{ r.name }}</b></td>
+            <td>{{ r.open }}</td>
+            <td>{{ r.resolved }}</td>
+            <td>{{ r.avg_reply ~ ' min' if r.avg_reply is not none else '–' }}</td>
+            <td style="min-width:160px">
+              {% if r.sla_pct is not none %}
+              <div class="bar" style="margin:0">
+                <div class="t"><i style="width:{{ r.sla_pct }}%;{{ 'background:#C8321F' if r.sla_pct < 90 else '' }}"></i></div>
+                <b>{{ r.sla_pct }}%</b>
+              </div>
+              {% else %}–{% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>SLA targets</h2>
+    {% for p in policies %}
+    <div class="kv">
+      <span>{{ badge(p.priority) }} reply within {{ '%g'|format(p.response_hours) }} h</span>
+      <b>{{ p.pct ~ '% met' if p.pct is not none else '–' }}</b>
+    </div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

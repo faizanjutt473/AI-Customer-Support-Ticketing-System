@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% set active_page = 'notifications' %}
+{% block title %}Notifications{% endblock %}
+{% block heading %}Notifications{% endblock %}
+{% block sub %}Alerts for new, urgent and overdue tickets{% endblock %}
+
+{% block content %}
+<section class="card">
+  <form method="post" action="/notifications/read-all" style="margin-bottom:10px">
+    <button class="btn sec" type="submit">Mark all as read</button>
+  </form>
+  {% for n in notifications %}
+  <a class="nt {{ '' if n.is_read else 'un' }}" href="/notifications/{{ n.id }}/open" style="text-decoration:none;color:inherit">
+    <div>
+      <b>{{ n.text }}</b><br>
+      <small style="color:var(--muted)">{{ n.created_at.strftime('%d %b, %H:%M') }}</small>
+    </div>
+  </a>
+  {% else %}
+  <p>No notifications yet.</p>
+  {% endfor %}
+</section>
+{% endblock %}

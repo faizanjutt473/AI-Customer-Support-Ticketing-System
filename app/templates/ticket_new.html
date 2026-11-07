@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% set active_page = 'new' %}
+{% block title %}New ticket{% endblock %}
+{% block heading %}New ticket{% endblock %}
+{% block sub %}AI sorts the category, priority and sentiment as you type{% endblock %}
+
+{% block content %}
+<div class="g3">
+  <form class="card" method="post" action="/tickets/new">
+    <label for="customer">Customer name</label>
+    <input id="customer" name="customer" value="{{ form.get('customer', '') }}" required>
+    <label for="email">Customer email (optional)</label>
+    <input id="email" name="email" type="email" value="{{ form.get('email', '') }}">
+    <label for="subject">Subject</label>
+    <input id="subject" name="subject" value="{{ form.get('subject', '') }}" required>
+    <label for="description">Message</label>
+    <textarea id="description" name="description" rows="7" required>{{ form.get('description', '') }}</textarea>
+    <p style="margin-top:14px">
+      <button class="btn" type="submit">Create ticket</button>
+      <a class="btn sec" href="/tickets">Cancel</a>
+    </p>
+  </form>
+
+  <aside class="card ai">
+    <h2>AI preview</h2>
+    <div class="kv"><span>Category</span><span id="pc">Waiting for text…</span></div>
+    <div class="kv"><span>Priority</span><span id="pp">–</span></div>
+    <div class="kv"><span>Sentiment</span><span id="ps">–</span></div>
+    <div class="kv"><span>Confidence</span><b id="pf">–</b></div>
+    <p id="pe" style="margin-top:10px;color:var(--bad)"></p>
+  </aside>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+var timer;
+function badge(v) { return '<span class="b b-' + v.replace(" ", "") + '">' + v + '</span>'; }
+function reset() {
+  document.getElementById("pc").textContent = "Waiting for text…";
+  ["pp", "ps", "pf"].forEach(function (id) { document.getElementById(id).textContent = "–"; });
+}
+function preview() {
+  var subject = document.getElementById("subject").value;
+  var description = document.getElementById("description").value;
+  fetch("/api/analyze", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ subject: subject, description: description })
+  })
+    .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, data: d }; }); })
+    .then(function (res) {
+      document.getElementById("pe").textContent = res.ok ? "" : (res.data.error || "AI preview unavailable.");
+      var d = res.data;
+      if (!res.ok || !d.category) { reset(); return; }
+      document.getElementById("pc").innerHTML = badge(d.category);
+      document.getElementById("pp").innerHTML = badge(d.priority);
+      document.getElementById("ps").innerHTML = badge(d.sentiment);
+      document.getElementById("pf").textContent = d.confidence + "%";
+    })
+    .catch(function () { reset(); });
+}
+function schedule() { clearTimeout(timer); timer = setTimeout(preview, 400); }
+document.getElementById("subject").addEventListener("input", schedule);
+document.getElementById("description").addEventListener("input", schedule);
+</script>
+{% endblock %}

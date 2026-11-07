@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% set active_page = 'tickets' %}
+{% from "_macros.html" import badge, status_badge %}
+{% block title %}Ticket #{{ ticket.id }}{% endblock %}
+{% block heading %}Ticket #{{ ticket.id }}{% endblock %}
+{% block sub %}{{ ticket.subject }}{% endblock %}
+
+{% block content %}
+{% set label, cls = sla_info(ticket) %}
+<div class="g3">
+  <div>
+    <section class="card">
+      <h2>Conversation with {{ ticket.customer.name }}</h2>
+      {% for m in ticket.messages %}
+        {% if m.sender_type == 'customer' %}
+        <div class="msg c"><small>{{ ticket.customer.name }} · {{ m.created_at.strftime('%d %b, %H:%M') }}</small>{{ m.body }}</div>
+        {% else %}
+        <div class="msg a"><small>{{ m.user.name if m.user else 'Agent' }} · {{ m.created_at.strftime('%d %b, %H:%M') }}</small>{{ m.body }}</div>
+        {% endif %}
+      {% endfor %}
+    </section>
+
+    {% if ticket.status != 'Closed' %}
+    <form class="card" method="post" action="/tickets/{{ ticket.id }}/reply">
+      <label for="reply">Your reply</label>
+      <textarea id="reply" name="body" rows="5" required></textarea>
+      <p style="margin-top:12px">
+        <button class="btn" type="submit">Send reply</button>
+        <a class="btn sec" href="/tickets">Back to tickets</a>
+      </p>
+    </form>
+    {% else %}
+    <section class="card">
+      <p>This ticket is closed.</p>
+      <p style="margin-top:12px"><a class="btn sec" href="/tickets">Back to tickets</a></p>
+    </section>
+    {% endif %}
+  </div>
+
+  <div>
+    <section class="card">
+      <h2>Ticket</h2>
+      <div class="kv"><span>Status</span><span>{{ status_badge(ticket.status) }}</span></div>
+      <div class="kv"><span>SLA</span><span>{{ badge(label, cls) }}</span></div>
+      <form method="post" action="/tickets/{{ ticket.id }}/assign">
+        <label for="agent_id">Assigned to</label>
+        <select id="agent_id" name="agent_id" onchange="this.form.submit()">
+          <option value="">Unassigned</option>
+          {% for a in agents %}
+          <option value="{{ a.id }}" {{ 'selected' if ticket.agent_id == a.id else '' }}>{{ a.name }}</option>
+          {% endfor %}
+        </select>
+      </form>
+      {% if ticket.status != 'Closed' %}
+      <form method="post" action="/tickets/{{ ticket.id }}/close" style="margin-top:14px">
+        <button class="btn red" type="submit">Close ticket</button>
+      </form>
+      {% endif %}
+    </section>
+
+    <section class="card ai">
+      <h2>AI analysis</h2>
+      <div class="kv"><span>Category</span>{{ badge(ticket.category) }}</div>
+      <div class="kv"><span>Priority</span>{{ badge(ticket.priority) }}</div>
+      <div class="kv"><span>Sentiment</span>{{ badge(ticket.sentiment) }}</div>
+      <div class="kv"><span>Confidence</span><b>{{ ticket.confidence|round|int if ticket.confidence is not none else '-' }}%</b></div>
+      {% if ticket.sentiment == 'Angry' %}
+      <p style="margin-top:10px"><b>Flagged urgent:</b> customer sounds angry. Reply first.</p>
+      {% endif %}
+    </section>
+
+    <section class="card ai">
+      <h2>Suggested reply (from knowledge base)</h2>
+      {% if suggestions %}
+      <div class="sug" id="sgt">{{ draft }}</div>
+      <p style="font-size:13px;color:var(--muted)" id="src">Source: {{ suggestions|map(attribute='title')|join(', ') }}</p>
+      {% if ticket.status != 'Closed' %}
+      <button class="btn" type="button" id="use">Use this reply</button>
+      <button class="btn sec" type="button" id="gen">Generate with AI</button>
+      {% endif %}
+      <p id="gerr" style="margin-top:8px;color:var(--bad)"></p>
+      {% else %}
+      <p>No matching article found. Write a reply manually.</p>
+      {% endif %}
+    </section>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+var use = document.getElementById("use");
+if (use) {
+  use.onclick = function () {
+    var box = document.getElementById("reply");
+    box.value = document.getElementById("sgt").textContent.trim();
+    box.focus();
+  };
+}
+var gen = document.getElementById("gen");
+if (gen) {
+  gen.onclick = function () {
+    var err = document.getElementById("gerr");
+    err.textContent = "";
+    gen.disabled = true;
+    gen.textContent = "Generating…";
+    fetch("/tickets/{{ ticket.id }}/ai-reply", { method: "POST" })
+      .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, data: d }; }); })
+      .then(function (res) {
+        if (!res.ok) { err.textContent = res.data.error || "Could not generate a reply."; return; }
+        document.getElementById("sgt").textContent = res.data.reply;
+        document.getElementById("src").textContent = "Written by Gemini from: " + res.data.sources.join(", ");
+      })
+      .catch(function () { err.textContent = "Network error. Please try again."; })
+      .then(function () { gen.disabled = false; gen.textContent = "Generate with AI"; });
+  };
+}
+</script>
+{% endblock %}

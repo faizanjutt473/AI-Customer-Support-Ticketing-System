@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% set active_page = 'tickets' %}
+{% from "_macros.html" import badge, status_badge %}
+{% block title %}Tickets{% endblock %}
+{% block heading %}Tickets{% endblock %}
+{% block sub %}Search, filter and open any ticket{% endblock %}
+
+{% block content %}
+<section class="card">
+  <form method="get" action="/tickets" id="filter-form">
+    <div class="filters">
+      <div>
+        <label for="q">Search</label>
+        <input id="q" name="q" value="{{ q }}" placeholder="Subject, customer or ID">
+      </div>
+      <div>
+        <label for="status">Status</label>
+        <select id="status" name="status" onchange="this.form.submit()">
+          <option value="">All</option>
+          {% for s in statuses %}<option {{ 'selected' if s == status else '' }}>{{ s }}</option>{% endfor %}
+        </select>
+      </div>
+      <div>
+        <label for="category">Category</label>
+        <select id="category" name="category" onchange="this.form.submit()">
+          <option value="">All</option>
+          {% for c in categories %}<option {{ 'selected' if c == category else '' }}>{{ c }}</option>{% endfor %}
+        </select>
+      </div>
+      <div>
+        <label for="priority">Priority</label>
+        <select id="priority" name="priority" onchange="this.form.submit()">
+          <option value="">All</option>
+          {% for p in priorities %}<option {{ 'selected' if p == priority else '' }}>{{ p }}</option>{% endfor %}
+        </select>
+      </div>
+    </div>
+    <p style="margin-top:12px">
+      <button class="btn" type="submit">Search</button>
+      <a class="btn sec" href="/tickets">Clear filters</a>
+    </p>
+  </form>
+</section>
+
+<section class="card">
+  <h2>{{ tickets|length }} ticket{{ '' if tickets|length == 1 else 's' }}</h2>
+  <div class="tw">
+    <table>
+      <thead>
+        <tr><th>ID</th><th>Subject</th><th>Customer</th><th>Category</th><th>Priority</th><th>Sentiment</th><th>Status</th><th>SLA</th><th>Agent</th></tr>
+      </thead>
+      <tbody>
+        {% for t in tickets %}
+        {% set label, cls = sla_info(t) %}
+        <tr class="row" data-href="/tickets/{{ t.id }}">
+          <td>#{{ t.id }}</td>
+          <td>{{ t.subject }}</td>
+          <td>{{ t.customer.name }}</td>
+          <td>{{ badge(t.category) }}</td>
+          <td>{{ badge(t.priority) }}</td>
+          <td>{{ badge(t.sentiment) }}</td>
+          <td>{{ status_badge(t.status) }}</td>
+          <td>{{ badge(label, cls) }}</td>
+          <td>{{ t.agent.name if t.agent else 'Unassigned' }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="9">No tickets match these filters. Clear a filter to see more.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

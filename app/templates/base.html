@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}{% endblock %} · SupportDesk AI</title>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+{% set nav = [
+  ('dashboard', 'Dashboard', '/dashboard'),
+  ('tickets', 'Tickets', '/tickets'),
+  ('new', 'New ticket', '/tickets/new'),
+  ('kb', 'Knowledge base', '/knowledge-base'),
+  ('agents', 'Agents & SLA', '/agents'),
+  ('notifications', 'Notifications', '/notifications')
+] %}
+<aside class="side" id="side">
+  <a class="brand" href="/dashboard"><i>S</i>SupportDesk AI</a>
+  <nav>
+    {% for key, label, href in nav %}
+    <a href="{{ href }}" class="{{ 'on' if active_page == key else '' }}">{{ label }}{% if key == 'notifications' and unread_count %}<span class="cnt">{{ unread_count }}</span>{% endif %}</a>
+    {% endfor %}
+  </nav>
+  <div class="me"><b>{{ current_user.name }}</b><br>{{ current_user.role|capitalize }}<br><a href="/logout">Sign out</a></div>
+</aside>
+<div class="wrap">
+  <header class="top">
+    <button class="btn sec menu" type="button" aria-label="Open menu" onclick="document.getElementById('side').classList.toggle('open')">Menu</button>
+    <div><h1>{% block heading %}{% endblock %}</h1><p>{% block sub %}{% endblock %}</p></div>
+    <div class="sp"></div>
+    <a class="btn sec" href="/tickets/new">+ New ticket</a>
+  </header>
+   <main id="content">
+    {% with messages = get_flashed_messages() %}
+      {% for m in messages %}<div class="card" style="border-left:4px solid var(--teal)">{{ m }}</div>{% endfor %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+</div>
+<script>
+document.addEventListener("click", function (e) {
+  var r = e.target.closest("tr[data-href]");
+  if (r) location.href = r.dataset.href;
+});
+</script>
+<div id="toast"></div>
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+<script>
+(function () {
+  if (typeof io === "undefined") return;
+  var socket = io();
+  var link = document.querySelector('.side nav a[href="/notifications"]');
+
+  socket.on("notification", function (n) {
+    var t = document.createElement("div");
+    t.className = "toast";
+    t.style.cursor = "pointer";
+    t.textContent = n.text;
+    t.onclick = function () { location.href = "/notifications/" + n.id + "/open"; };
+    document.getElementById("toast").appendChild(t);
+    setTimeout(function () { t.remove(); }, 8000);
+
+    if (link) {
+      var c = link.querySelector(".cnt");
+      if (!c) {
+        c = document.createElement("span");
+        c.className = "cnt";
+        c.textContent = "0";
+        link.appendChild(c);
+      }
+      c.textContent = (parseInt(c.textContent, 10) || 0) + 1;
+    }
+    if (location.pathname === "/notifications") {
+      setTimeout(function () { location.reload(); }, 1500);
+    }
+  });
+})();
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

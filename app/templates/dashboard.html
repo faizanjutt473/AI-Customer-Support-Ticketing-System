@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% set active_page = 'dashboard' %}
+{% from "_macros.html" import badge %}
+{% block title %}Dashboard{% endblock %}
+{% block heading %}Dashboard{% endblock %}
+{% block sub %}Today's workload, SLA risk and angry customers{% endblock %}
+
+{% block content %}
+<section class="stats">
+  <div class="stat"><b>{{ open_count }}</b><span>Open tickets</span></div>
+  <div class="stat u"><b>{{ urgent|length }}</b><span>Urgent or angry customers</span></div>
+  <div class="stat w"><b>{{ at_risk|length }}</b><span>SLA at risk or breached</span></div>
+  <div class="stat i"><b>{{ sla_pct }}%</b><span>SLA met (closed tickets)</span></div>
+</section>
+
+<div class="g2">
+  <section class="card">
+    <h2>Tickets by category</h2>
+    {% for name, count, pct in categories %}
+    <div class="bar"><span>{{ name }}</span><div class="t"><i style="width: {{ pct|round(1) }}%"></i></div><b>{{ count }}</b></div>
+    {% endfor %}
+  </section>
+
+  <section class="card">
+    <h2>SLA at risk</h2>
+    {% for t in at_risk %}
+    {% set label, cls = sla_info(t) %}
+    <div class="kv"><a href="/tickets/{{ t.id }}">#{{ t.id }} {{ t.subject }}</a>{{ badge(label, cls) }}</div>
+    {% else %}
+    <p>No tickets at risk.</p>
+    {% endfor %}
+  </section>
+</div>
+
+<section class="card">
+  <h2>Urgent and angry customers</h2>
+  <div class="tw">
+    <table>
+      <thead><tr><th>ID</th><th>Subject</th><th>Customer</th><th>Priority</th><th>Sentiment</th><th>Agent</th></tr></thead>
+      <tbody>
+        {% for t in urgent %}
+        <tr class="row" data-href="/tickets/{{ t.id }}">
+          <td>#{{ t.id }}</td><td>{{ t.subject }}</td><td>{{ t.customer.name }}</td>
+          <td>{{ badge(t.priority) }}</td><td>{{ badge(t.sentiment) }}</td>
+          <td>{{ t.agent.name if t.agent else 'Unassigned' }}</td>
+        </tr>
+        {% else %}
+        <tr><td colspan="6">No urgent tickets right now.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

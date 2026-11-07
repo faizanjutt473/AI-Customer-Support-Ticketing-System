@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% set active_page = 'kb' %}
+{% from "_macros.html" import badge %}
+{% block title %}Knowledge base{% endblock %}
+{% block heading %}Knowledge base{% endblock %}
+{% block sub %}Articles the AI uses to suggest replies{% endblock %}
+
+{% block content %}
+<section class="card">
+  <form method="get" action="/knowledge-base">
+    <div class="filters" style="grid-template-columns:2fr 1fr">
+      <div>
+        <label for="q">Search articles</label>
+        <input id="q" name="q" value="{{ q }}">
+      </div>
+      <div>
+        <label for="category">Category</label>
+        <select id="category" name="category" onchange="this.form.submit()">
+          <option value="">All</option>
+          {% for c in categories %}<option {{ 'selected' if c == category else '' }}>{{ c }}</option>{% endfor %}
+        </select>
+      </div>
+    </div>
+    <p style="margin-top:12px">
+      <button class="btn" type="submit">Search</button>
+      <a class="btn sec" href="/knowledge-base">Clear filters</a>
+    </p>
+  </form>
+</section>
+
+<div class="kb">
+  {% for a in articles %}
+  <article class="card">
+    {{ badge(a.category) }}
+    <h2 style="margin-top:10px">{{ a.title }}</h2>
+    <p>{{ a.body }}</p>
+  </article>
+  {% else %}
+  <p>No articles found. Try another keyword.</p>
+  {% endfor %}
+</div>
+{% endblock %}
