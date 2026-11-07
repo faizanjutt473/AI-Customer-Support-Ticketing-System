@@ -1,0 +1,873 @@
+text,category,priority,sentiment
+"Good morning, I was charged twice for this month's invoice This is unacceptable and I am furious!",Billing,Urgent,Angry
+"I was charged twice for this month's invoice Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hello, I was charged twice for this month's invoice Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hello, I was charged twice for this month's invoice This is unacceptable and I am furious!",Billing,Urgent,Angry
+"Hi, I was charged twice for this month's invoice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+I was charged twice for this month's invoice This is unacceptable and I am furious!,Billing,Urgent,Angry
+"I was charged twice for this month's invoice Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hello, I was charged twice for this month's invoice I am disappointed with this.",Billing,High,Negative
+"Good morning, I was charged twice for this month's invoice This has been a poor experience. Please respond ASAP.",Billing,Urgent,Negative
+"Hi team, I was charged twice for this month's invoice I am disappointed with this.",Billing,High,Negative
+"Hello, I was charged twice for this month's invoice This has been a poor experience.",Billing,High,Negative
+"Hello, I was charged twice for this month's invoice This is frustrating.",Billing,High,Negative
+"Hi team, I was charged twice for this month's invoice I am disappointed with this. This is urgent.",Billing,Urgent,Negative
+"Hi team, I was charged twice for this month's invoice I am not happy about this.",Billing,High,Negative
+I was charged twice for this month's invoice This has been a poor experience.,Billing,High,Negative
+Please help: I was charged twice for this month's invoice,Billing,Normal,Neutral
+"Good morning, I was charged twice for this month's invoice Waiting for your reply.",Billing,Normal,Neutral
+"Hi team, I was charged twice for this month's invoice Waiting for your reply. This is urgent.",Billing,Urgent,Neutral
+I was charged twice for this month's invoice.,Billing,Normal,Neutral
+Please help: I was charged twice for this month's invoice Please check.,Billing,Normal,Neutral
+"Hi team, I was charged twice for this month's invoice.",Billing,Normal,Neutral
+"Hello, I was charged twice for this month's invoice Please check.",Billing,Normal,Neutral
+"Good morning, I was charged twice for this month's invoice Thank you, great product!",Billing,Low,Positive
+"Hi, I was charged twice for this month's invoice Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hello, I was charged twice for this month's invoice Appreciate your help, thank you.",Billing,Low,Positive
+"Please help: I was charged twice for this month's invoice Love the service, thanks!",Billing,Low,Positive
+"Good morning, I was charged twice for this month's invoice Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Good morning, I was charged twice for this month's invoice Love the service, thanks!",Billing,Low,Positive
+"I was charged twice for this month's invoice Thanks a lot, really happy with the team.",Billing,Low,Positive
+"My invoice amount is wrong Terrible support, this is a scam.",Billing,Urgent,Angry
+"Please help: My invoice amount is wrong Terrible support, this is a scam.",Billing,Urgent,Angry
+"My invoice amount is wrong Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi, My invoice amount is wrong Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hello, My invoice amount is wrong This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Please help: My invoice amount is wrong This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hello, My invoice amount is wrong Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hello, My invoice amount is wrong Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Good morning, My invoice amount is wrong I am not happy about this.",Billing,High,Negative
+Please help: My invoice amount is wrong This has been a poor experience.,Billing,High,Negative
+"Hello, My invoice amount is wrong This has been a poor experience. This is urgent.",Billing,Urgent,Negative
+My invoice amount is wrong This is frustrating.,Billing,High,Negative
+"Good morning, My invoice amount is wrong This has been a poor experience.",Billing,High,Negative
+Please help: My invoice amount is wrong I am not happy about this.,Billing,High,Negative
+My invoice amount is wrong I am disappointed with this.,Billing,High,Negative
+"Hi, My invoice amount is wrong Please check.",Billing,Normal,Neutral
+"Hi team, My invoice amount is wrong",Billing,Normal,Neutral
+"Hello, My invoice amount is wrong Can you help? Please respond ASAP.",Billing,Urgent,Neutral
+"Good morning, My invoice amount is wrong Please check.",Billing,Normal,Neutral
+"Hello, My invoice amount is wrong Waiting for your reply.",Billing,Normal,Neutral
+"Hi, My invoice amount is wrong Waiting for your reply. I need this fixed immediately.",Billing,Urgent,Neutral
+"Hi, My invoice amount is wrong Thank you, great product!",Billing,Low,Positive
+"Hi, My invoice amount is wrong Love the service, thanks!",Billing,Low,Positive
+"Please help: My invoice amount is wrong Thank you, great product!",Billing,Low,Positive
+"My invoice amount is wrong Love the service, thanks!",Billing,Low,Positive
+"Hi team, My invoice amount is wrong Thanks a lot, really happy with the team.",Billing,Low,Positive
+"My invoice amount is wrong Thanks a lot, really happy with the team.",Billing,Low,Positive
+"My invoice amount is wrong Appreciate your help, thank you.",Billing,Low,Positive
+"The payment failed but money left my account Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hello, The payment failed but money left my account This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hi, The payment failed but money left my account Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi team, The payment failed but money left my account This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hello, The payment failed but money left my account Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Good morning, The payment failed but money left my account Terrible support, this is a scam.",Billing,Urgent,Angry
+"Please help: The payment failed but money left my account Terrible support, this is a scam.",Billing,Urgent,Angry
+"Please help: The payment failed but money left my account This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+The payment failed but money left my account This is frustrating. I need this fixed immediately.,Billing,Urgent,Negative
+The payment failed but money left my account This is frustrating.,Billing,High,Negative
+The payment failed but money left my account I am disappointed with this.,Billing,High,Negative
+The payment failed but money left my account This is frustrating. This is urgent.,Billing,Urgent,Negative
+"Hi team, The payment failed but money left my account I am disappointed with this.",Billing,High,Negative
+"Hi team, The payment failed but money left my account This has been a poor experience. This is urgent.",Billing,Urgent,Negative
+"Good morning, The payment failed but money left my account This has been a poor experience. I need this fixed immediately.",Billing,Urgent,Negative
+Please help: The payment failed but money left my account This is frustrating. Please respond ASAP.,Billing,Urgent,Negative
+Please help: The payment failed but money left my account Please check.,Billing,Normal,Neutral
+Please help: The payment failed but money left my account,Billing,Normal,Neutral
+"Good morning, The payment failed but money left my account Please respond ASAP.",Billing,Urgent,Neutral
+"Hi team, The payment failed but money left my account This is urgent.",Billing,Urgent,Neutral
+"Hi, The payment failed but money left my account Can you help? This is urgent.",Billing,Urgent,Neutral
+"Hi team, The payment failed but money left my account Can you help? This is urgent.",Billing,Urgent,Neutral
+Please help: The payment failed but money left my account Waiting for your reply. Please respond ASAP.,Billing,Urgent,Neutral
+"Hi, The payment failed but money left my account",Billing,Normal,Neutral
+"Hello, The payment failed but money left my account Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Please help: The payment failed but money left my account Appreciate your help, thank you.",Billing,Low,Positive
+"Please help: The payment failed but money left my account Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Please help: The payment failed but money left my account Thank you, great product!",Billing,Low,Positive
+"Hello, The payment failed but money left my account Appreciate your help, thank you.",Billing,Low,Positive
+"The payment failed but money left my account Appreciate your help, thank you.",Billing,Low,Positive
+"Hi team, The payment failed but money left my account Appreciate your help, thank you.",Billing,Low,Positive
+"Good morning, I need to update my card details This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hello, I need to update my card details Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi team, I need to update my card details Worst service ever, I am fed up.",Billing,Urgent,Angry
+I need to update my card details This is unacceptable and I am furious!,Billing,Urgent,Angry
+"Good morning, I need to update my card details Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hi, I need to update my card details This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hi, I need to update my card details Worst service ever, I am fed up.",Billing,Urgent,Angry
+I need to update my card details I am disappointed with this.,Billing,High,Negative
+"Hello, I need to update my card details This has been a poor experience. Please respond ASAP.",Billing,Urgent,Negative
+"Hello, I need to update my card details I am disappointed with this.",Billing,High,Negative
+Please help: I need to update my card details I am not happy about this.,Billing,High,Negative
+"Hello, I need to update my card details I am not happy about this. I need this fixed immediately.",Billing,Urgent,Negative
+"Hello, I need to update my card details I am not happy about this.",Billing,High,Negative
+"Hi, I need to update my card details This is urgent.",Billing,Urgent,Neutral
+"Hi, I need to update my card details Please check. I need this fixed immediately.",Billing,Urgent,Neutral
+I need to update my card details.,Billing,Normal,Neutral
+"Hello, I need to update my card details Can you help?",Billing,Normal,Neutral
+"Good morning, I need to update my card details Please check.",Billing,Normal,Neutral
+"Good morning, I need to update my card details Waiting for your reply. Please respond ASAP.",Billing,Urgent,Neutral
+"Hi team, I need to update my card details",Billing,Normal,Neutral
+"Hello, I need to update my card details Please check. This is urgent.",Billing,Urgent,Neutral
+"Good morning, I need to update my card details Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hi team, I need to update my card details Love the service, thanks!",Billing,Low,Positive
+"Hi, I need to update my card details Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Good morning, I need to update my card details Love the service, thanks!",Billing,Low,Positive
+"Hello, I need to update my card details Love the service, thanks!",Billing,Low,Positive
+"Hi, I need to update my card details Appreciate your help, thank you.",Billing,Low,Positive
+"Hi team, I need to update my card details Thank you, great product!",Billing,Low,Positive
+"I need to update my card details Appreciate your help, thank you.",Billing,Low,Positive
+"Hi team, Please change the billing address on my account This is unacceptable and I am furious!",Billing,Urgent,Angry
+"Please change the billing address on my account Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hello, Please change the billing address on my account Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hello, Please change the billing address on my account This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hi, Please change the billing address on my account This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hi, Please change the billing address on my account This is unacceptable and I am furious!",Billing,Urgent,Angry
+Please change the billing address on my account This is unacceptable and I am furious!,Billing,Urgent,Angry
+"Good morning, Please change the billing address on my account Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi, Please change the billing address on my account I am disappointed with this.",Billing,High,Negative
+"Hi, Please change the billing address on my account This is frustrating.",Billing,High,Negative
+Please change the billing address on my account I am not happy about this.,Billing,High,Negative
+Please change the billing address on my account I am not happy about this. This is urgent.,Billing,Urgent,Negative
+"Good morning, Please change the billing address on my account I am disappointed with this.",Billing,High,Negative
+"Hi, Please change the billing address on my account This has been a poor experience.",Billing,High,Negative
+"Good morning, Please change the billing address on my account This is frustrating.",Billing,High,Negative
+"Hello, Please change the billing address on my account This is frustrating.",Billing,High,Negative
+"Hello, Please change the billing address on my account Can you help? Please respond ASAP.",Billing,Urgent,Neutral
+"Hi team, Please change the billing address on my account Can you help?",Billing,Normal,Neutral
+"Good morning, Please change the billing address on my account.",Billing,Normal,Neutral
+"Good morning, Please change the billing address on my account",Billing,Normal,Neutral
+Please change the billing address on my account Can you help? I need this fixed immediately.,Billing,Urgent,Neutral
+"Hi team, Please change the billing address on my account Please check.",Billing,Normal,Neutral
+"Hello, Please change the billing address on my account. This is urgent.",Billing,Urgent,Neutral
+Please help: Please change the billing address on my account Please check.,Billing,Normal,Neutral
+"Please change the billing address on my account Love the service, thanks!",Billing,Low,Positive
+"Hi team, Please change the billing address on my account Appreciate your help, thank you.",Billing,Low,Positive
+"Good morning, Please change the billing address on my account Love the service, thanks!",Billing,Low,Positive
+"Please change the billing address on my account Thank you, great product!",Billing,Low,Positive
+"Hi team, Please change the billing address on my account Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hi, Please change the billing address on my account Love the service, thanks!",Billing,Low,Positive
+"Hi, Please change the billing address on my account Appreciate your help, thank you.",Billing,Low,Positive
+"Hi team, I was overcharged on my latest bill Terrible support, this is a scam.",Billing,Urgent,Angry
+Please help: I was overcharged on my latest bill This is unacceptable and I am furious!,Billing,Urgent,Angry
+"Please help: I was overcharged on my latest bill Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi team, I was overcharged on my latest bill This is unacceptable and I am furious!",Billing,Urgent,Angry
+"Good morning, I was overcharged on my latest bill This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"I was overcharged on my latest bill Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi team, I was overcharged on my latest bill This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"I was overcharged on my latest bill Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hi, I was overcharged on my latest bill I am not happy about this.",Billing,High,Negative
+I was overcharged on my latest bill I am not happy about this.,Billing,High,Negative
+"Good morning, I was overcharged on my latest bill This has been a poor experience.",Billing,High,Negative
+"Good morning, I was overcharged on my latest bill I am not happy about this.",Billing,High,Negative
+"Hello, I was overcharged on my latest bill This has been a poor experience.",Billing,High,Negative
+Please help: I was overcharged on my latest bill This is frustrating.,Billing,High,Negative
+"Hi team, I was overcharged on my latest bill This has been a poor experience.",Billing,High,Negative
+Please help: I was overcharged on my latest bill Waiting for your reply.,Billing,Normal,Neutral
+"Hi team, I was overcharged on my latest bill Can you help?",Billing,Normal,Neutral
+"Good morning, I was overcharged on my latest bill.",Billing,Normal,Neutral
+"Hi team, I was overcharged on my latest bill Waiting for your reply.",Billing,Normal,Neutral
+"Hi, I was overcharged on my latest bill Please check. This is urgent.",Billing,Urgent,Neutral
+"Good morning, I was overcharged on my latest bill Please check. This is urgent.",Billing,Urgent,Neutral
+"Hello, I was overcharged on my latest bill I need this fixed immediately.",Billing,Urgent,Neutral
+"Hi, I was overcharged on my latest bill Thank you, great product!",Billing,Low,Positive
+"Please help: I was overcharged on my latest bill Appreciate your help, thank you.",Billing,Low,Positive
+"Good morning, I was overcharged on my latest bill Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Good morning, I was overcharged on my latest bill Appreciate your help, thank you.",Billing,Low,Positive
+"Hello, I was overcharged on my latest bill Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Good morning, I was overcharged on my latest bill Thank you, great product!",Billing,Low,Positive
+"I was overcharged on my latest bill Appreciate your help, thank you.",Billing,Low,Positive
+"Hello, I need a copy of last month's invoice Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Good morning, I need a copy of last month's invoice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"I need a copy of last month's invoice Worst service ever, I am fed up.",Billing,Urgent,Angry
+"I need a copy of last month's invoice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hello, I need a copy of last month's invoice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Good morning, I need a copy of last month's invoice Terrible support, this is a scam.",Billing,Urgent,Angry
+"Please help: I need a copy of last month's invoice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hi, I need a copy of last month's invoice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hello, I need a copy of last month's invoice This has been a poor experience.",Billing,High,Negative
+"Hello, I need a copy of last month's invoice I am not happy about this.",Billing,High,Negative
+"Hi, I need a copy of last month's invoice This has been a poor experience.",Billing,High,Negative
+"Hi team, I need a copy of last month's invoice This has been a poor experience. I need this fixed immediately.",Billing,Urgent,Negative
+"Hi, I need a copy of last month's invoice I am disappointed with this. This is urgent.",Billing,Urgent,Negative
+Please help: I need a copy of last month's invoice This is frustrating.,Billing,High,Negative
+I need a copy of last month's invoice This has been a poor experience.,Billing,High,Negative
+"Hi, I need a copy of last month's invoice Can you help?",Billing,Normal,Neutral
+"Hello, I need a copy of last month's invoice Can you help?",Billing,Normal,Neutral
+"Hi, I need a copy of last month's invoice",Billing,Normal,Neutral
+"Hi team, I need a copy of last month's invoice Please check.",Billing,Normal,Neutral
+Please help: I need a copy of last month's invoice Waiting for your reply.,Billing,Normal,Neutral
+"Hi, I need a copy of last month's invoice Waiting for your reply.",Billing,Normal,Neutral
+Please help: I need a copy of last month's invoice.,Billing,Normal,Neutral
+"Please help: I need a copy of last month's invoice Thank you, great product!",Billing,Low,Positive
+"Please help: I need a copy of last month's invoice Love the service, thanks!",Billing,Low,Positive
+"Good morning, I need a copy of last month's invoice Appreciate your help, thank you.",Billing,Low,Positive
+"Good morning, I need a copy of last month's invoice Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Please help: I need a copy of last month's invoice Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hi, I need a copy of last month's invoice Thank you, great product!",Billing,Low,Positive
+"I need a copy of last month's invoice Appreciate your help, thank you.",Billing,Low,Positive
+"Hello, My subscription price went up without notice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hello, My subscription price went up without notice This is unacceptable and I am furious!",Billing,Urgent,Angry
+"Hi team, My subscription price went up without notice This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hi team, My subscription price went up without notice Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Please help: My subscription price went up without notice Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hi team, My subscription price went up without notice This is unacceptable and I am furious!",Billing,Urgent,Angry
+Please help: My subscription price went up without notice I am disappointed with this.,Billing,High,Negative
+My subscription price went up without notice I am not happy about this. This is urgent.,Billing,Urgent,Negative
+"Good morning, My subscription price went up without notice I am disappointed with this.",Billing,High,Negative
+"Hello, My subscription price went up without notice This is frustrating.",Billing,High,Negative
+"Hi, My subscription price went up without notice This is frustrating. I need this fixed immediately.",Billing,Urgent,Negative
+"Hello, My subscription price went up without notice This has been a poor experience.",Billing,High,Negative
+"Hi team, My subscription price went up without notice This is frustrating.",Billing,High,Negative
+"Good morning, My subscription price went up without notice",Billing,Normal,Neutral
+"Hello, My subscription price went up without notice Please check. This is urgent.",Billing,Urgent,Neutral
+"Hi team, My subscription price went up without notice Waiting for your reply.",Billing,Normal,Neutral
+Please help: My subscription price went up without notice Can you help?,Billing,Normal,Neutral
+"Hello, My subscription price went up without notice",Billing,Normal,Neutral
+"Good morning, My subscription price went up without notice. I need this fixed immediately.",Billing,Urgent,Neutral
+"Good morning, My subscription price went up without notice Waiting for your reply.",Billing,Normal,Neutral
+"Hi, My subscription price went up without notice",Billing,Normal,Neutral
+"Please help: My subscription price went up without notice Love the service, thanks!",Billing,Low,Positive
+"My subscription price went up without notice Love the service, thanks!",Billing,Low,Positive
+"My subscription price went up without notice Appreciate your help, thank you.",Billing,Low,Positive
+"Please help: My subscription price went up without notice Thank you, great product!",Billing,Low,Positive
+"Good morning, My subscription price went up without notice Appreciate your help, thank you.",Billing,Low,Positive
+"Good morning, My subscription price went up without notice Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Please help: My subscription price went up without notice Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Good morning, The tax on my invoice looks incorrect Terrible support, this is a scam.",Billing,Urgent,Angry
+"Hi, The tax on my invoice looks incorrect This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Please help: The tax on my invoice looks incorrect This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+"Hi team, The tax on my invoice looks incorrect Worst service ever, I am fed up.",Billing,Urgent,Angry
+"The tax on my invoice looks incorrect Terrible support, this is a scam.",Billing,Urgent,Angry
+"Please help: The tax on my invoice looks incorrect Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi team, The tax on my invoice looks incorrect I am disappointed with this.",Billing,High,Negative
+"Hi team, The tax on my invoice looks incorrect This is frustrating.",Billing,High,Negative
+"Hi team, The tax on my invoice looks incorrect I am not happy about this.",Billing,High,Negative
+"Hi, The tax on my invoice looks incorrect I am not happy about this.",Billing,High,Negative
+"Hi, The tax on my invoice looks incorrect This is frustrating. Please respond ASAP.",Billing,Urgent,Negative
+Please help: The tax on my invoice looks incorrect This has been a poor experience.,Billing,High,Negative
+"Hello, The tax on my invoice looks incorrect This has been a poor experience.",Billing,High,Negative
+The tax on my invoice looks incorrect Please check. Please respond ASAP.,Billing,Urgent,Neutral
+"Hello, The tax on my invoice looks incorrect Please check.",Billing,Normal,Neutral
+"Hi team, The tax on my invoice looks incorrect Can you help?",Billing,Normal,Neutral
+"Hi, The tax on my invoice looks incorrect Please check.",Billing,Normal,Neutral
+Please help: The tax on my invoice looks incorrect Please check.,Billing,Normal,Neutral
+"Hello, The tax on my invoice looks incorrect",Billing,Normal,Neutral
+"Hi team, The tax on my invoice looks incorrect",Billing,Normal,Neutral
+"Good morning, The tax on my invoice looks incorrect Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hello, The tax on my invoice looks incorrect Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Good morning, The tax on my invoice looks incorrect Appreciate your help, thank you.",Billing,Low,Positive
+"Hi team, The tax on my invoice looks incorrect Love the service, thanks!",Billing,Low,Positive
+"The tax on my invoice looks incorrect Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hi team, The tax on my invoice looks incorrect Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hi team, The tax on my invoice looks incorrect Thank you, great product!",Billing,Low,Positive
+"Good morning, My payment is not showing in my account Worst service ever, I am fed up.",Billing,Urgent,Angry
+"Hi team, My payment is not showing in my account This is unacceptable and I am furious!",Billing,Urgent,Angry
+"My payment is not showing in my account Terrible support, this is a scam.",Billing,Urgent,Angry
+"Good morning, My payment is not showing in my account This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+My payment is not showing in my account This is unacceptable and I am furious!,Billing,Urgent,Angry
+"Hi, My payment is not showing in my account Terrible support, this is a scam.",Billing,Urgent,Angry
+"Please help: My payment is not showing in my account This is ridiculous, nobody replies to me.",Billing,Urgent,Angry
+Please help: My payment is not showing in my account I am not happy about this. This is urgent.,Billing,Urgent,Negative
+"Hi team, My payment is not showing in my account This has been a poor experience. This is urgent.",Billing,Urgent,Negative
+Please help: My payment is not showing in my account This has been a poor experience. Please respond ASAP.,Billing,Urgent,Negative
+"Good morning, My payment is not showing in my account I am disappointed with this. Please respond ASAP.",Billing,Urgent,Negative
+"Hi team, My payment is not showing in my account I am disappointed with this.",Billing,High,Negative
+My payment is not showing in my account This has been a poor experience.,Billing,High,Negative
+"Hi, My payment is not showing in my account This is frustrating.",Billing,High,Negative
+Please help: My payment is not showing in my account This has been a poor experience.,Billing,High,Negative
+"Hi team, My payment is not showing in my account Waiting for your reply.",Billing,Normal,Neutral
+"Hi, My payment is not showing in my account",Billing,Normal,Neutral
+"Hello, My payment is not showing in my account.",Billing,Normal,Neutral
+My payment is not showing in my account. Please respond ASAP.,Billing,Urgent,Neutral
+My payment is not showing in my account. I need this fixed immediately.,Billing,Urgent,Neutral
+"Good morning, My payment is not showing in my account Waiting for your reply.",Billing,Normal,Neutral
+My payment is not showing in my account.,Billing,Normal,Neutral
+"Hi team, My payment is not showing in my account Appreciate your help, thank you.",Billing,Low,Positive
+"My payment is not showing in my account Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Hi team, My payment is not showing in my account Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Please help: My payment is not showing in my account Thank you, great product!",Billing,Low,Positive
+"Hi, My payment is not showing in my account Thanks a lot, really happy with the team.",Billing,Low,Positive
+"Good morning, My payment is not showing in my account Thanks a lot, really happy with the team.",Billing,Low,Positive
+"My payment is not showing in my account Thank you, great product!",Billing,Low,Positive
+"Hello, I cannot log in to my account Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hi, I cannot log in to my account Terrible support, this is a scam.",Technical,Urgent,Angry
+Please help: I cannot log in to my account This is unacceptable and I am furious!,Technical,Urgent,Angry
+"Please help: I cannot log in to my account Terrible support, this is a scam.",Technical,Urgent,Angry
+"Good morning, I cannot log in to my account This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Hi team, I cannot log in to my account This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Hi, I cannot log in to my account This is unacceptable and I am furious!",Technical,Urgent,Angry
+Please help: I cannot log in to my account I am not happy about this.,Technical,High,Negative
+I cannot log in to my account I am disappointed with this. Please respond ASAP.,Technical,Urgent,Negative
+"Hi, I cannot log in to my account I am disappointed with this.",Technical,High,Negative
+"Good morning, I cannot log in to my account I am not happy about this.",Technical,High,Negative
+"Hello, I cannot log in to my account This has been a poor experience.",Technical,High,Negative
+Please help: I cannot log in to my account I am not happy about this. Please respond ASAP.,Technical,Urgent,Negative
+Please help: I cannot log in to my account This has been a poor experience.,Technical,High,Negative
+"Hi team, I cannot log in to my account",Technical,Normal,Neutral
+"Hi team, I cannot log in to my account Can you help?",Technical,Normal,Neutral
+"Hi, I cannot log in to my account",Technical,Normal,Neutral
+"Hi team, I cannot log in to my account Please check.",Technical,Normal,Neutral
+Please help: I cannot log in to my account Waiting for your reply.,Technical,Normal,Neutral
+I cannot log in to my account Waiting for your reply.,Technical,Normal,Neutral
+I cannot log in to my account.,Technical,Normal,Neutral
+"Hi, I cannot log in to my account Appreciate your help, thank you.",Technical,Low,Positive
+"Good morning, I cannot log in to my account Appreciate your help, thank you.",Technical,Low,Positive
+"I cannot log in to my account Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi team, I cannot log in to my account Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi team, I cannot log in to my account Appreciate your help, thank you.",Technical,Low,Positive
+"I cannot log in to my account Thank you, great product!",Technical,Low,Positive
+"Good morning, I cannot log in to my account Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Good morning, The app crashes every time I open it Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi team, The app crashes every time I open it This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Hi, The app crashes every time I open it This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"The app crashes every time I open it Worst service ever, I am fed up.",Technical,Urgent,Angry
+"The app crashes every time I open it This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Please help: The app crashes every time I open it Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hi, The app crashes every time I open it Terrible support, this is a scam.",Technical,Urgent,Angry
+Please help: The app crashes every time I open it This has been a poor experience.,Technical,High,Negative
+"Hello, The app crashes every time I open it This has been a poor experience.",Technical,High,Negative
+Please help: The app crashes every time I open it This is frustrating.,Technical,High,Negative
+"Hi, The app crashes every time I open it This is frustrating.",Technical,High,Negative
+"Hi team, The app crashes every time I open it This has been a poor experience.",Technical,High,Negative
+"Hi, The app crashes every time I open it I am not happy about this.",Technical,High,Negative
+"Hi team, The app crashes every time I open it I am not happy about this.",Technical,High,Negative
+"Hi, The app crashes every time I open it This has been a poor experience.",Technical,High,Negative
+Please help: The app crashes every time I open it Waiting for your reply.,Technical,Normal,Neutral
+"Hi team, The app crashes every time I open it Waiting for your reply.",Technical,Normal,Neutral
+Please help: The app crashes every time I open it Can you help?,Technical,Normal,Neutral
+"Hello, The app crashes every time I open it.",Technical,Normal,Neutral
+"Hello, The app crashes every time I open it Can you help? Please respond ASAP.",Technical,Urgent,Neutral
+"Good morning, The app crashes every time I open it.",Technical,Normal,Neutral
+The app crashes every time I open it.,Technical,Normal,Neutral
+"Hi, The app crashes every time I open it Love the service, thanks!",Technical,Low,Positive
+"The app crashes every time I open it Appreciate your help, thank you.",Technical,Low,Positive
+"The app crashes every time I open it Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Please help: The app crashes every time I open it Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi team, The app crashes every time I open it Love the service, thanks!",Technical,Low,Positive
+"Hi, The app crashes every time I open it Appreciate your help, thank you.",Technical,Low,Positive
+"Good morning, I get error code 500 on the dashboard This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Hi team, I get error code 500 on the dashboard This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Hi, I get error code 500 on the dashboard This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Hello, I get error code 500 on the dashboard Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hello, I get error code 500 on the dashboard This is unacceptable and I am furious!",Technical,Urgent,Angry
+Please help: I get error code 500 on the dashboard This is unacceptable and I am furious!,Technical,Urgent,Angry
+"Good morning, I get error code 500 on the dashboard I am disappointed with this.",Technical,High,Negative
+"Good morning, I get error code 500 on the dashboard I am not happy about this.",Technical,High,Negative
+I get error code 500 on the dashboard I am not happy about this.,Technical,High,Negative
+"Hi team, I get error code 500 on the dashboard I am not happy about this.",Technical,High,Negative
+"Hello, I get error code 500 on the dashboard This is frustrating.",Technical,High,Negative
+"Hi, I get error code 500 on the dashboard This is frustrating. This is urgent.",Technical,Urgent,Negative
+"Hi, I get error code 500 on the dashboard This has been a poor experience.",Technical,High,Negative
+"Hello, I get error code 500 on the dashboard This has been a poor experience.",Technical,High,Negative
+"Hello, I get error code 500 on the dashboard.",Technical,Normal,Neutral
+"Hi team, I get error code 500 on the dashboard Can you help?",Technical,Normal,Neutral
+I get error code 500 on the dashboard Can you help?,Technical,Normal,Neutral
+"Good morning, I get error code 500 on the dashboard Waiting for your reply. I need this fixed immediately.",Technical,Urgent,Neutral
+"Hi team, I get error code 500 on the dashboard Waiting for your reply.",Technical,Normal,Neutral
+Please help: I get error code 500 on the dashboard Please check.,Technical,Normal,Neutral
+"Hi team, I get error code 500 on the dashboard.",Technical,Normal,Neutral
+Please help: I get error code 500 on the dashboard Please respond ASAP.,Technical,Urgent,Neutral
+"Hi team, I get error code 500 on the dashboard Love the service, thanks!",Technical,Low,Positive
+"Good morning, I get error code 500 on the dashboard Love the service, thanks!",Technical,Low,Positive
+"I get error code 500 on the dashboard Appreciate your help, thank you.",Technical,Low,Positive
+"Hi team, I get error code 500 on the dashboard Thank you, great product!",Technical,Low,Positive
+"Hi, I get error code 500 on the dashboard Thank you, great product!",Technical,Low,Positive
+"Hi, I get error code 500 on the dashboard Appreciate your help, thank you.",Technical,Low,Positive
+"Hi team, I get error code 500 on the dashboard Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi, I get error code 500 on the dashboard Love the service, thanks!",Technical,Low,Positive
+"Hello, The password reset link is not working Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi, The password reset link is not working Terrible support, this is a scam.",Technical,Urgent,Angry
+"Good morning, The password reset link is not working Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Good morning, The password reset link is not working This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Hi team, The password reset link is not working This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"The password reset link is not working Terrible support, this is a scam.",Technical,Urgent,Angry
+The password reset link is not working I am not happy about this.,Technical,High,Negative
+Please help: The password reset link is not working This is frustrating. Please respond ASAP.,Technical,Urgent,Negative
+"Hi team, The password reset link is not working I am not happy about this.",Technical,High,Negative
+"Hi team, The password reset link is not working This has been a poor experience.",Technical,High,Negative
+Please help: The password reset link is not working I am disappointed with this. This is urgent.,Technical,Urgent,Negative
+"Good morning, The password reset link is not working This has been a poor experience.",Technical,High,Negative
+"Hi, The password reset link is not working I am not happy about this. I need this fixed immediately.",Technical,Urgent,Negative
+The password reset link is not working Please check.,Technical,Normal,Neutral
+Please help: The password reset link is not working Please check.,Technical,Normal,Neutral
+"Good morning, The password reset link is not working Please check.",Technical,Normal,Neutral
+"Good morning, The password reset link is not working Please check. This is urgent.",Technical,Urgent,Neutral
+Please help: The password reset link is not working,Technical,Normal,Neutral
+"Hi, The password reset link is not working Please check.",Technical,Normal,Neutral
+"Hello, The password reset link is not working",Technical,Normal,Neutral
+"The password reset link is not working Thanks a lot, really happy with the team.",Technical,Low,Positive
+"The password reset link is not working Thank you, great product!",Technical,Low,Positive
+"Hi team, The password reset link is not working Appreciate your help, thank you.",Technical,Low,Positive
+"Hello, The password reset link is not working Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Please help: The password reset link is not working Appreciate your help, thank you.",Technical,Low,Positive
+"Hi, The password reset link is not working Thanks a lot, really happy with the team.",Technical,Low,Positive
+Please help: The website is very slow to load This is unacceptable and I am furious!,Technical,Urgent,Angry
+"Please help: The website is very slow to load This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Hi team, The website is very slow to load This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Good morning, The website is very slow to load Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hello, The website is very slow to load This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Please help: The website is very slow to load Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi, The website is very slow to load I am not happy about this. I need this fixed immediately.",Technical,Urgent,Negative
+"Hello, The website is very slow to load I am disappointed with this.",Technical,High,Negative
+Please help: The website is very slow to load I am disappointed with this.,Technical,High,Negative
+"Good morning, The website is very slow to load I am disappointed with this. I need this fixed immediately.",Technical,Urgent,Negative
+"Hello, The website is very slow to load This is frustrating.",Technical,High,Negative
+"Hi, The website is very slow to load This is frustrating.",Technical,High,Negative
+"Hello, The website is very slow to load I am not happy about this.",Technical,High,Negative
+"Hi, The website is very slow to load",Technical,Normal,Neutral
+"Hello, The website is very slow to load.",Technical,Normal,Neutral
+"Hello, The website is very slow to load",Technical,Normal,Neutral
+The website is very slow to load. This is urgent.,Technical,Urgent,Neutral
+"Hi, The website is very slow to load Please check. I need this fixed immediately.",Technical,Urgent,Neutral
+The website is very slow to load.,Technical,Normal,Neutral
+Please help: The website is very slow to load Can you help?,Technical,Normal,Neutral
+"Hi, The website is very slow to load Thank you, great product!",Technical,Low,Positive
+"Please help: The website is very slow to load Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Good morning, The website is very slow to load Love the service, thanks!",Technical,Low,Positive
+"Please help: The website is very slow to load Thank you, great product!",Technical,Low,Positive
+"The website is very slow to load Appreciate your help, thank you.",Technical,Low,Positive
+"Please help: The website is very slow to load Appreciate your help, thank you.",Technical,Low,Positive
+"Good morning, The website is very slow to load Thank you, great product!",Technical,Low,Positive
+"Please help: The page keeps freezing and not loading This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+The page keeps freezing and not loading This is unacceptable and I am furious!,Technical,Urgent,Angry
+"Hi team, The page keeps freezing and not loading Worst service ever, I am fed up.",Technical,Urgent,Angry
+"The page keeps freezing and not loading Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi team, The page keeps freezing and not loading Terrible support, this is a scam.",Technical,Urgent,Angry
+"Please help: The page keeps freezing and not loading Terrible support, this is a scam.",Technical,Urgent,Angry
+"Good morning, The page keeps freezing and not loading This is frustrating.",Technical,High,Negative
+"Hello, The page keeps freezing and not loading This has been a poor experience.",Technical,High,Negative
+Please help: The page keeps freezing and not loading This has been a poor experience.,Technical,High,Negative
+The page keeps freezing and not loading I am not happy about this.,Technical,High,Negative
+"Good morning, The page keeps freezing and not loading I am not happy about this.",Technical,High,Negative
+"Hello, The page keeps freezing and not loading This has been a poor experience. This is urgent.",Technical,Urgent,Negative
+The page keeps freezing and not loading This has been a poor experience. Please respond ASAP.,Technical,Urgent,Negative
+"Hi team, The page keeps freezing and not loading This is frustrating.",Technical,High,Negative
+"Hi, The page keeps freezing and not loading Waiting for your reply.",Technical,Normal,Neutral
+"Good morning, The page keeps freezing and not loading",Technical,Normal,Neutral
+"Good morning, The page keeps freezing and not loading Can you help?",Technical,Normal,Neutral
+"Hi, The page keeps freezing and not loading Please check.",Technical,Normal,Neutral
+"Hi, The page keeps freezing and not loading Waiting for your reply. Please respond ASAP.",Technical,Urgent,Neutral
+Please help: The page keeps freezing and not loading.,Technical,Normal,Neutral
+"Hi team, The page keeps freezing and not loading Waiting for your reply.",Technical,Normal,Neutral
+"Hi team, The page keeps freezing and not loading Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Please help: The page keeps freezing and not loading Thank you, great product!",Technical,Low,Positive
+"Hi, The page keeps freezing and not loading Love the service, thanks!",Technical,Low,Positive
+"The page keeps freezing and not loading Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi team, The page keeps freezing and not loading Love the service, thanks!",Technical,Low,Positive
+"Hello, The page keeps freezing and not loading Appreciate your help, thank you.",Technical,Low,Positive
+"My account is locked and I cannot access it Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Good morning, My account is locked and I cannot access it This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Please help: My account is locked and I cannot access it This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Please help: My account is locked and I cannot access it Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hello, My account is locked and I cannot access it Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hi team, My account is locked and I cannot access it Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hi, My account is locked and I cannot access it This is unacceptable and I am furious!",Technical,Urgent,Angry
+My account is locked and I cannot access it This is frustrating. Please respond ASAP.,Technical,Urgent,Negative
+My account is locked and I cannot access it I am disappointed with this.,Technical,High,Negative
+"Good morning, My account is locked and I cannot access it This has been a poor experience.",Technical,High,Negative
+Please help: My account is locked and I cannot access it This has been a poor experience.,Technical,High,Negative
+"Hi, My account is locked and I cannot access it I am disappointed with this.",Technical,High,Negative
+My account is locked and I cannot access it I am not happy about this.,Technical,High,Negative
+"Hi, My account is locked and I cannot access it This has been a poor experience.",Technical,High,Negative
+"Hi team, My account is locked and I cannot access it I am disappointed with this. Please respond ASAP.",Technical,Urgent,Negative
+My account is locked and I cannot access it This is urgent.,Technical,Urgent,Neutral
+"Hello, My account is locked and I cannot access it Please check.",Technical,Normal,Neutral
+My account is locked and I cannot access it,Technical,Normal,Neutral
+Please help: My account is locked and I cannot access it. Please respond ASAP.,Technical,Urgent,Neutral
+"Good morning, My account is locked and I cannot access it.",Technical,Normal,Neutral
+"Good morning, My account is locked and I cannot access it Please check. Please respond ASAP.",Technical,Urgent,Neutral
+My account is locked and I cannot access it Can you help? This is urgent.,Technical,Urgent,Neutral
+"Hi team, My account is locked and I cannot access it Waiting for your reply.",Technical,Normal,Neutral
+"Please help: My account is locked and I cannot access it Appreciate your help, thank you.",Technical,Low,Positive
+"Hi team, My account is locked and I cannot access it Thank you, great product!",Technical,Low,Positive
+"Please help: My account is locked and I cannot access it Thank you, great product!",Technical,Low,Positive
+"Hi team, My account is locked and I cannot access it Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi, My account is locked and I cannot access it Appreciate your help, thank you.",Technical,Low,Positive
+"Good morning, My account is locked and I cannot access it Love the service, thanks!",Technical,Low,Positive
+"My account is locked and I cannot access it Appreciate your help, thank you.",Technical,Low,Positive
+"My account is locked and I cannot access it Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Please help: There is a bug in the reports section This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Hi, There is a bug in the reports section This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Please help: There is a bug in the reports section Terrible support, this is a scam.",Technical,Urgent,Angry
+"Good morning, There is a bug in the reports section Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hello, There is a bug in the reports section Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hello, There is a bug in the reports section This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Hi, There is a bug in the reports section Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi team, There is a bug in the reports section I am not happy about this.",Technical,High,Negative
+"Good morning, There is a bug in the reports section This is frustrating. This is urgent.",Technical,Urgent,Negative
+"Hi team, There is a bug in the reports section This is frustrating. This is urgent.",Technical,Urgent,Negative
+"Good morning, There is a bug in the reports section I am disappointed with this. Please respond ASAP.",Technical,Urgent,Negative
+Please help: There is a bug in the reports section This has been a poor experience.,Technical,High,Negative
+"Hi, There is a bug in the reports section This has been a poor experience.",Technical,High,Negative
+"Hi, There is a bug in the reports section I am not happy about this.",Technical,High,Negative
+"Good morning, There is a bug in the reports section I am not happy about this. This is urgent.",Technical,Urgent,Negative
+Please help: There is a bug in the reports section Can you help?,Technical,Normal,Neutral
+"Hi team, There is a bug in the reports section Waiting for your reply. Please respond ASAP.",Technical,Urgent,Neutral
+There is a bug in the reports section Please check.,Technical,Normal,Neutral
+There is a bug in the reports section,Technical,Normal,Neutral
+"Hi team, There is a bug in the reports section",Technical,Normal,Neutral
+There is a bug in the reports section Waiting for your reply.,Technical,Normal,Neutral
+"Good morning, There is a bug in the reports section",Technical,Normal,Neutral
+"Hi, There is a bug in the reports section Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi team, There is a bug in the reports section Appreciate your help, thank you.",Technical,Low,Positive
+"There is a bug in the reports section Appreciate your help, thank you.",Technical,Low,Positive
+"There is a bug in the reports section Love the service, thanks!",Technical,Low,Positive
+"Good morning, There is a bug in the reports section Thank you, great product!",Technical,Low,Positive
+"There is a bug in the reports section Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Good morning, I cannot upload files, the upload fails This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Please help: I cannot upload files, the upload fails Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi team, I cannot upload files, the upload fails Terrible support, this is a scam.",Technical,Urgent,Angry
+"Hi team, I cannot upload files, the upload fails This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Please help: I cannot upload files, the upload fails Terrible support, this is a scam.",Technical,Urgent,Angry
+"Good morning, I cannot upload files, the upload fails This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Good morning, I cannot upload files, the upload fails Terrible support, this is a scam.",Technical,Urgent,Angry
+"I cannot upload files, the upload fails Terrible support, this is a scam.",Technical,Urgent,Angry
+"I cannot upload files, the upload fails This has been a poor experience.",Technical,High,Negative
+"Good morning, I cannot upload files, the upload fails This is frustrating.",Technical,High,Negative
+"Hi, I cannot upload files, the upload fails This is frustrating.",Technical,High,Negative
+"Hi team, I cannot upload files, the upload fails This has been a poor experience. Please respond ASAP.",Technical,Urgent,Negative
+"I cannot upload files, the upload fails I am not happy about this.",Technical,High,Negative
+"Good morning, I cannot upload files, the upload fails I am not happy about this.",Technical,High,Negative
+"Good morning, I cannot upload files, the upload fails I am disappointed with this.",Technical,High,Negative
+"Please help: I cannot upload files, the upload fails I am not happy about this. I need this fixed immediately.",Technical,Urgent,Negative
+"Hello, I cannot upload files, the upload fails.",Technical,Normal,Neutral
+"Please help: I cannot upload files, the upload fails. This is urgent.",Technical,Urgent,Neutral
+"Hello, I cannot upload files, the upload fails",Technical,Normal,Neutral
+"I cannot upload files, the upload fails Waiting for your reply.",Technical,Normal,Neutral
+"Good morning, I cannot upload files, the upload fails Waiting for your reply. I need this fixed immediately.",Technical,Urgent,Neutral
+"Hi, I cannot upload files, the upload fails.",Technical,Normal,Neutral
+"Hello, I cannot upload files, the upload fails. Please respond ASAP.",Technical,Urgent,Neutral
+"I cannot upload files, the upload fails Appreciate your help, thank you.",Technical,Low,Positive
+"Hi team, I cannot upload files, the upload fails Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Please help: I cannot upload files, the upload fails Love the service, thanks!",Technical,Low,Positive
+"Good morning, I cannot upload files, the upload fails Appreciate your help, thank you.",Technical,Low,Positive
+"Hello, I cannot upload files, the upload fails Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi team, I cannot upload files, the upload fails Appreciate your help, thank you.",Technical,Low,Positive
+"Hello, I cannot upload files, the upload fails Love the service, thanks!",Technical,Low,Positive
+"Please help: Notifications are not working on my phone Terrible support, this is a scam.",Technical,Urgent,Angry
+"Please help: Notifications are not working on my phone This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Hello, Notifications are not working on my phone Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi, Notifications are not working on my phone Worst service ever, I am fed up.",Technical,Urgent,Angry
+"Hi team, Notifications are not working on my phone This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Good morning, Notifications are not working on my phone This is ridiculous, nobody replies to me.",Technical,Urgent,Angry
+"Good morning, Notifications are not working on my phone This is unacceptable and I am furious!",Technical,Urgent,Angry
+"Hi team, Notifications are not working on my phone I am disappointed with this.",Technical,High,Negative
+"Hi team, Notifications are not working on my phone This has been a poor experience.",Technical,High,Negative
+"Hello, Notifications are not working on my phone This has been a poor experience. This is urgent.",Technical,Urgent,Negative
+Please help: Notifications are not working on my phone I am not happy about this.,Technical,High,Negative
+Please help: Notifications are not working on my phone I am disappointed with this.,Technical,High,Negative
+"Hi team, Notifications are not working on my phone This is frustrating.",Technical,High,Negative
+Notifications are not working on my phone I am not happy about this. I need this fixed immediately.,Technical,Urgent,Negative
+Notifications are not working on my phone I am not happy about this.,Technical,High,Negative
+"Hello, Notifications are not working on my phone",Technical,Normal,Neutral
+Please help: Notifications are not working on my phone.,Technical,Normal,Neutral
+Please help: Notifications are not working on my phone Can you help?,Technical,Normal,Neutral
+Notifications are not working on my phone,Technical,Normal,Neutral
+"Hello, Notifications are not working on my phone Waiting for your reply.",Technical,Normal,Neutral
+"Hi, Notifications are not working on my phone Waiting for your reply.",Technical,Normal,Neutral
+"Hi team, Notifications are not working on my phone.",Technical,Normal,Neutral
+Notifications are not working on my phone.,Technical,Normal,Neutral
+"Hi, Notifications are not working on my phone Appreciate your help, thank you.",Technical,Low,Positive
+"Notifications are not working on my phone Thank you, great product!",Technical,Low,Positive
+"Please help: Notifications are not working on my phone Thank you, great product!",Technical,Low,Positive
+"Good morning, Notifications are not working on my phone Thanks a lot, really happy with the team.",Technical,Low,Positive
+"Hi team, Notifications are not working on my phone Appreciate your help, thank you.",Technical,Low,Positive
+"Notifications are not working on my phone Love the service, thanks!",Technical,Low,Positive
+"Hello, Notifications are not working on my phone Appreciate your help, thank you.",Technical,Low,Positive
+"Hello, I want a refund for my annual plan This is unacceptable and I am furious!",Refund,Urgent,Angry
+"Hi, I want a refund for my annual plan Terrible support, this is a scam.",Refund,Urgent,Angry
+I want a refund for my annual plan This is unacceptable and I am furious!,Refund,Urgent,Angry
+"Please help: I want a refund for my annual plan This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"I want a refund for my annual plan This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi team, I want a refund for my annual plan Terrible support, this is a scam.",Refund,Urgent,Angry
+"Good morning, I want a refund for my annual plan This is unacceptable and I am furious!",Refund,Urgent,Angry
+"Hi team, I want a refund for my annual plan This is unacceptable and I am furious!",Refund,Urgent,Angry
+"Hi team, I want a refund for my annual plan This is frustrating.",Refund,High,Negative
+"Good morning, I want a refund for my annual plan I am disappointed with this.",Refund,High,Negative
+"Good morning, I want a refund for my annual plan I am not happy about this. I need this fixed immediately.",Refund,Urgent,Negative
+"Hi, I want a refund for my annual plan I am not happy about this.",Refund,High,Negative
+"Hello, I want a refund for my annual plan This has been a poor experience.",Refund,High,Negative
+Please help: I want a refund for my annual plan This is frustrating.,Refund,High,Negative
+I want a refund for my annual plan This has been a poor experience. This is urgent.,Refund,Urgent,Negative
+I want a refund for my annual plan This is frustrating.,Refund,High,Negative
+"Hi team, I want a refund for my annual plan Please check.",Refund,Normal,Neutral
+"Hi, I want a refund for my annual plan Can you help?",Refund,Normal,Neutral
+"Good morning, I want a refund for my annual plan.",Refund,Normal,Neutral
+I want a refund for my annual plan Please check.,Refund,Normal,Neutral
+"Hi team, I want a refund for my annual plan Can you help?",Refund,Normal,Neutral
+"Good morning, I want a refund for my annual plan Can you help?",Refund,Normal,Neutral
+Please help: I want a refund for my annual plan Please check.,Refund,Normal,Neutral
+Please help: I want a refund for my annual plan Can you help?,Refund,Normal,Neutral
+"Hi, I want a refund for my annual plan Love the service, thanks!",Refund,Low,Positive
+"I want a refund for my annual plan Appreciate your help, thank you.",Refund,Low,Positive
+"Hi, I want a refund for my annual plan Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hi team, I want a refund for my annual plan Thank you, great product!",Refund,Low,Positive
+"I want a refund for my annual plan Love the service, thanks!",Refund,Low,Positive
+"Good morning, I want a refund for my annual plan Love the service, thanks!",Refund,Low,Positive
+"Hi team, Please give me my money back This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi, Please give me my money back This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hello, Please give me my money back This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Please give me my money back Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hi team, Please give me my money back This is unacceptable and I am furious!",Refund,Urgent,Angry
+"Please give me my money back This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi team, Please give me my money back This is frustrating.",Refund,High,Negative
+"Hello, Please give me my money back This has been a poor experience. This is urgent.",Refund,Urgent,Negative
+"Hello, Please give me my money back I am not happy about this.",Refund,High,Negative
+"Hi, Please give me my money back I am disappointed with this.",Refund,High,Negative
+"Good morning, Please give me my money back This has been a poor experience.",Refund,High,Negative
+"Hi team, Please give me my money back This has been a poor experience.",Refund,High,Negative
+"Hi, Please give me my money back This is frustrating.",Refund,High,Negative
+Please help: Please give me my money back I am not happy about this.,Refund,High,Negative
+"Hello, Please give me my money back This is urgent.",Refund,Urgent,Neutral
+Please help: Please give me my money back Waiting for your reply.,Refund,Normal,Neutral
+"Hi, Please give me my money back",Refund,Normal,Neutral
+"Hi team, Please give me my money back Can you help? Please respond ASAP.",Refund,Urgent,Neutral
+"Hi team, Please give me my money back Can you help? This is urgent.",Refund,Urgent,Neutral
+Please give me my money back Can you help? Please respond ASAP.,Refund,Urgent,Neutral
+Please help: Please give me my money back,Refund,Normal,Neutral
+"Hi team, Please give me my money back Please check.",Refund,Normal,Neutral
+"Hi, Please give me my money back Love the service, thanks!",Refund,Low,Positive
+"Hi team, Please give me my money back Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Good morning, Please give me my money back Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Please give me my money back Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hello, Please give me my money back Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Please help: Please give me my money back Thank you, great product!",Refund,Low,Positive
+"Hi team, Please give me my money back Love the service, thanks!",Refund,Low,Positive
+"Please help: I cancelled my order and need a refund Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Hi, I cancelled my order and need a refund This is unacceptable and I am furious!",Refund,Urgent,Angry
+"I cancelled my order and need a refund Terrible support, this is a scam.",Refund,Urgent,Angry
+"Please help: I cancelled my order and need a refund This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi, I cancelled my order and need a refund This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+Please help: I cancelled my order and need a refund This is unacceptable and I am furious!,Refund,Urgent,Angry
+"Hello, I cancelled my order and need a refund Terrible support, this is a scam.",Refund,Urgent,Angry
+"Good morning, I cancelled my order and need a refund This is unacceptable and I am furious!",Refund,Urgent,Angry
+Please help: I cancelled my order and need a refund This has been a poor experience.,Refund,High,Negative
+"Hi team, I cancelled my order and need a refund This is frustrating.",Refund,High,Negative
+"Hi, I cancelled my order and need a refund This is frustrating.",Refund,High,Negative
+"Hello, I cancelled my order and need a refund This has been a poor experience.",Refund,High,Negative
+I cancelled my order and need a refund I am disappointed with this.,Refund,High,Negative
+"Hi team, I cancelled my order and need a refund This is frustrating. Please respond ASAP.",Refund,Urgent,Negative
+"Hello, I cancelled my order and need a refund I am not happy about this.",Refund,High,Negative
+"Hi, I cancelled my order and need a refund I am not happy about this.",Refund,High,Negative
+"Hi team, I cancelled my order and need a refund.",Refund,Normal,Neutral
+"Hi, I cancelled my order and need a refund Please check. I need this fixed immediately.",Refund,Urgent,Neutral
+"Hi, I cancelled my order and need a refund Waiting for your reply. Please respond ASAP.",Refund,Urgent,Neutral
+"Hello, I cancelled my order and need a refund Waiting for your reply.",Refund,Normal,Neutral
+"Hello, I cancelled my order and need a refund.",Refund,Normal,Neutral
+"Good morning, I cancelled my order and need a refund Waiting for your reply.",Refund,Normal,Neutral
+"Hi, I cancelled my order and need a refund",Refund,Normal,Neutral
+I cancelled my order and need a refund Please respond ASAP.,Refund,Urgent,Neutral
+"Hi, I cancelled my order and need a refund Love the service, thanks!",Refund,Low,Positive
+"Good morning, I cancelled my order and need a refund Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hi, I cancelled my order and need a refund Appreciate your help, thank you.",Refund,Low,Positive
+"Hi, I cancelled my order and need a refund Thank you, great product!",Refund,Low,Positive
+"Please help: I cancelled my order and need a refund Love the service, thanks!",Refund,Low,Positive
+"Good morning, I cancelled my order and need a refund Love the service, thanks!",Refund,Low,Positive
+"Please help: I cancelled my order and need a refund Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Good morning, I cancelled my order and need a refund Appreciate your help, thank you.",Refund,Low,Positive
+"Hi team, I want to return the product and get a refund This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+I want to return the product and get a refund This is unacceptable and I am furious!,Refund,Urgent,Angry
+"Hello, I want to return the product and get a refund This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Please help: I want to return the product and get a refund This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Please help: I want to return the product and get a refund Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Hi team, I want to return the product and get a refund Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Hi team, I want to return the product and get a refund Terrible support, this is a scam.",Refund,Urgent,Angry
+"Good morning, I want to return the product and get a refund Terrible support, this is a scam.",Refund,Urgent,Angry
+Please help: I want to return the product and get a refund This is frustrating.,Refund,High,Negative
+"Hi, I want to return the product and get a refund I am disappointed with this.",Refund,High,Negative
+Please help: I want to return the product and get a refund I am disappointed with this.,Refund,High,Negative
+"Hello, I want to return the product and get a refund This is frustrating. I need this fixed immediately.",Refund,Urgent,Negative
+Please help: I want to return the product and get a refund This has been a poor experience. This is urgent.,Refund,Urgent,Negative
+"Hi team, I want to return the product and get a refund I am not happy about this. This is urgent.",Refund,Urgent,Negative
+Please help: I want to return the product and get a refund This has been a poor experience.,Refund,High,Negative
+"Hi team, I want to return the product and get a refund This has been a poor experience. I need this fixed immediately.",Refund,Urgent,Negative
+"Hi, I want to return the product and get a refund Can you help?",Refund,Normal,Neutral
+"Hello, I want to return the product and get a refund Waiting for your reply.",Refund,Normal,Neutral
+I want to return the product and get a refund Please check.,Refund,Normal,Neutral
+"Good morning, I want to return the product and get a refund Can you help?",Refund,Normal,Neutral
+I want to return the product and get a refund,Refund,Normal,Neutral
+"Hi team, I want to return the product and get a refund Please check.",Refund,Normal,Neutral
+"Hi team, I want to return the product and get a refund",Refund,Normal,Neutral
+"Hi, I want to return the product and get a refund Waiting for your reply. Please respond ASAP.",Refund,Urgent,Neutral
+"Hi team, I want to return the product and get a refund Thank you, great product!",Refund,Low,Positive
+"Please help: I want to return the product and get a refund Appreciate your help, thank you.",Refund,Low,Positive
+"Hi, I want to return the product and get a refund Love the service, thanks!",Refund,Low,Positive
+"Hi, I want to return the product and get a refund Thank you, great product!",Refund,Low,Positive
+"Hello, I want to return the product and get a refund Thank you, great product!",Refund,Low,Positive
+"Please help: I want to return the product and get a refund Love the service, thanks!",Refund,Low,Positive
+"Hi team, I want to return the product and get a refund Love the service, thanks!",Refund,Low,Positive
+"Hello, I want to return the product and get a refund Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hi, My refund has not arrived yet This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi, My refund has not arrived yet This is unacceptable and I am furious!",Refund,Urgent,Angry
+My refund has not arrived yet This is unacceptable and I am furious!,Refund,Urgent,Angry
+"Hello, My refund has not arrived yet Terrible support, this is a scam.",Refund,Urgent,Angry
+"Please help: My refund has not arrived yet This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hello, My refund has not arrived yet Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Hi team, My refund has not arrived yet Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hello, My refund has not arrived yet This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi, My refund has not arrived yet I am not happy about this.",Refund,High,Negative
+"Hi, My refund has not arrived yet This has been a poor experience.",Refund,High,Negative
+"Hi team, My refund has not arrived yet This has been a poor experience.",Refund,High,Negative
+"Hi team, My refund has not arrived yet I am not happy about this.",Refund,High,Negative
+Please help: My refund has not arrived yet I am not happy about this.,Refund,High,Negative
+"Good morning, My refund has not arrived yet I am disappointed with this.",Refund,High,Negative
+"Hi team, My refund has not arrived yet This is frustrating.",Refund,High,Negative
+"Hi, My refund has not arrived yet This has been a poor experience. Please respond ASAP.",Refund,Urgent,Negative
+"Good morning, My refund has not arrived yet Waiting for your reply.",Refund,Normal,Neutral
+Please help: My refund has not arrived yet.,Refund,Normal,Neutral
+"Hello, My refund has not arrived yet",Refund,Normal,Neutral
+"Good morning, My refund has not arrived yet I need this fixed immediately.",Refund,Urgent,Neutral
+"Hi team, My refund has not arrived yet Can you help? Please respond ASAP.",Refund,Urgent,Neutral
+"Hello, My refund has not arrived yet Can you help?",Refund,Normal,Neutral
+"Hi, My refund has not arrived yet Can you help?",Refund,Normal,Neutral
+"Good morning, My refund has not arrived yet",Refund,Normal,Neutral
+"Hi, My refund has not arrived yet Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hi, My refund has not arrived yet Love the service, thanks!",Refund,Low,Positive
+"Good morning, My refund has not arrived yet Appreciate your help, thank you.",Refund,Low,Positive
+"Hi, My refund has not arrived yet Appreciate your help, thank you.",Refund,Low,Positive
+"Hi team, My refund has not arrived yet Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Please help: My refund has not arrived yet Love the service, thanks!",Refund,Low,Positive
+"Good morning, My refund has not arrived yet Love the service, thanks!",Refund,Low,Positive
+"Hi, What is the status of my refund request This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hello, What is the status of my refund request Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Hi team, What is the status of my refund request Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hello, What is the status of my refund request Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hi team, What is the status of my refund request Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Good morning, What is the status of my refund request This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi team, What is the status of my refund request This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi team, What is the status of my refund request I am disappointed with this.",Refund,High,Negative
+"Hi, What is the status of my refund request This has been a poor experience.",Refund,High,Negative
+Please help: What is the status of my refund request I am not happy about this.,Refund,High,Negative
+"Hello, What is the status of my refund request I am not happy about this. Please respond ASAP.",Refund,Urgent,Negative
+What is the status of my refund request I am not happy about this.,Refund,High,Negative
+"Good morning, What is the status of my refund request I am not happy about this.",Refund,High,Negative
+"Hello, What is the status of my refund request This is frustrating.",Refund,High,Negative
+"Hi team, What is the status of my refund request I am not happy about this. Please respond ASAP.",Refund,Urgent,Negative
+"Good morning, What is the status of my refund request Waiting for your reply. This is urgent.",Refund,Urgent,Neutral
+What is the status of my refund request,Refund,Normal,Neutral
+"Good morning, What is the status of my refund request Can you help? This is urgent.",Refund,Urgent,Neutral
+What is the status of my refund request Waiting for your reply.,Refund,Normal,Neutral
+"Hello, What is the status of my refund request Can you help?",Refund,Normal,Neutral
+Please help: What is the status of my refund request Can you help?,Refund,Normal,Neutral
+"Hi team, What is the status of my refund request Please check.",Refund,Normal,Neutral
+"What is the status of my refund request Thank you, great product!",Refund,Low,Positive
+"Good morning, What is the status of my refund request Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hi, What is the status of my refund request Thank you, great product!",Refund,Low,Positive
+"Hello, What is the status of my refund request Appreciate your help, thank you.",Refund,Low,Positive
+"Hello, What is the status of my refund request Thank you, great product!",Refund,Low,Positive
+"Please help: What is the status of my refund request Appreciate your help, thank you.",Refund,Low,Positive
+"Hello, What is the status of my refund request Love the service, thanks!",Refund,Low,Positive
+"Hi team, I want to cancel my subscription and get refunded This is unacceptable and I am furious!",Refund,Urgent,Angry
+"Hi team, I want to cancel my subscription and get refunded Terrible support, this is a scam.",Refund,Urgent,Angry
+"Please help: I want to cancel my subscription and get refunded This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hello, I want to cancel my subscription and get refunded This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi team, I want to cancel my subscription and get refunded Worst service ever, I am fed up.",Refund,Urgent,Angry
+"I want to cancel my subscription and get refunded Terrible support, this is a scam.",Refund,Urgent,Angry
+"Good morning, I want to cancel my subscription and get refunded Terrible support, this is a scam.",Refund,Urgent,Angry
+"Good morning, I want to cancel my subscription and get refunded This is frustrating. I need this fixed immediately.",Refund,Urgent,Negative
+"Hi team, I want to cancel my subscription and get refunded This is frustrating. Please respond ASAP.",Refund,Urgent,Negative
+Please help: I want to cancel my subscription and get refunded This has been a poor experience.,Refund,High,Negative
+I want to cancel my subscription and get refunded This has been a poor experience.,Refund,High,Negative
+"Hello, I want to cancel my subscription and get refunded This is frustrating.",Refund,High,Negative
+"Hello, I want to cancel my subscription and get refunded I am disappointed with this.",Refund,High,Negative
+"Hello, I want to cancel my subscription and get refunded This has been a poor experience.",Refund,High,Negative
+"Hi team, I want to cancel my subscription and get refunded I am not happy about this.",Refund,High,Negative
+"Hi, I want to cancel my subscription and get refunded",Refund,Normal,Neutral
+"Hi team, I want to cancel my subscription and get refunded. This is urgent.",Refund,Urgent,Neutral
+Please help: I want to cancel my subscription and get refunded Please check. Please respond ASAP.,Refund,Urgent,Neutral
+"Hi, I want to cancel my subscription and get refunded Please check.",Refund,Normal,Neutral
+"Good morning, I want to cancel my subscription and get refunded Please check.",Refund,Normal,Neutral
+"Hello, I want to cancel my subscription and get refunded.",Refund,Normal,Neutral
+Please help: I want to cancel my subscription and get refunded.,Refund,Normal,Neutral
+"Hi, I want to cancel my subscription and get refunded Appreciate your help, thank you.",Refund,Low,Positive
+"Hi, I want to cancel my subscription and get refunded Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hello, I want to cancel my subscription and get refunded Thank you, great product!",Refund,Low,Positive
+"Hi, I want to cancel my subscription and get refunded Love the service, thanks!",Refund,Low,Positive
+"I want to cancel my subscription and get refunded Thank you, great product!",Refund,Low,Positive
+"I want to cancel my subscription and get refunded Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hello, Please refund the amount, I do not need the service Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hi, Please refund the amount, I do not need the service This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Please refund the amount, I do not need the service Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Good morning, Please refund the amount, I do not need the service This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Please refund the amount, I do not need the service This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hello, Please refund the amount, I do not need the service This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Please help: Please refund the amount, I do not need the service This is unacceptable and I am furious!",Refund,Urgent,Angry
+"Hi, Please refund the amount, I do not need the service This has been a poor experience.",Refund,High,Negative
+"Hi team, Please refund the amount, I do not need the service I am disappointed with this.",Refund,High,Negative
+"Please refund the amount, I do not need the service This is frustrating.",Refund,High,Negative
+"Please refund the amount, I do not need the service This has been a poor experience.",Refund,High,Negative
+"Please refund the amount, I do not need the service I am disappointed with this.",Refund,High,Negative
+"Please refund the amount, I do not need the service This has been a poor experience. I need this fixed immediately.",Refund,Urgent,Negative
+"Hello, Please refund the amount, I do not need the service This is frustrating.",Refund,High,Negative
+"Good morning, Please refund the amount, I do not need the service This has been a poor experience.",Refund,High,Negative
+"Please help: Please refund the amount, I do not need the service Can you help?",Refund,Normal,Neutral
+"Please help: Please refund the amount, I do not need the service Can you help? Please respond ASAP.",Refund,Urgent,Neutral
+"Hi, Please refund the amount, I do not need the service.",Refund,Normal,Neutral
+"Hi team, Please refund the amount, I do not need the service Please respond ASAP.",Refund,Urgent,Neutral
+"Please help: Please refund the amount, I do not need the service Waiting for your reply. This is urgent.",Refund,Urgent,Neutral
+"Please refund the amount, I do not need the service",Refund,Normal,Neutral
+"Please help: Please refund the amount, I do not need the service Waiting for your reply.",Refund,Normal,Neutral
+"Please help: Please refund the amount, I do not need the service. I need this fixed immediately.",Refund,Urgent,Neutral
+"Hello, Please refund the amount, I do not need the service Love the service, thanks!",Refund,Low,Positive
+"Hello, Please refund the amount, I do not need the service Thank you, great product!",Refund,Low,Positive
+"Please refund the amount, I do not need the service Appreciate your help, thank you.",Refund,Low,Positive
+"Hi, Please refund the amount, I do not need the service Thank you, great product!",Refund,Low,Positive
+"Hello, Please refund the amount, I do not need the service Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Please refund the amount, I do not need the service Thank you, great product!",Refund,Low,Positive
+"Please help: Please refund the amount, I do not need the service Thank you, great product!",Refund,Low,Positive
+"Hello, I was promised a refund but nothing came This is unacceptable and I am furious!",Refund,Urgent,Angry
+"Please help: I was promised a refund but nothing came This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hello, I was promised a refund but nothing came Worst service ever, I am fed up.",Refund,Urgent,Angry
+"I was promised a refund but nothing came Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Hi, I was promised a refund but nothing came Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hello, I was promised a refund but nothing came Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hello, I was promised a refund but nothing came This is frustrating.",Refund,High,Negative
+"Hi team, I was promised a refund but nothing came I am disappointed with this.",Refund,High,Negative
+"Hi, I was promised a refund but nothing came This is frustrating.",Refund,High,Negative
+Please help: I was promised a refund but nothing came This has been a poor experience. I need this fixed immediately.,Refund,Urgent,Negative
+"Good morning, I was promised a refund but nothing came This has been a poor experience.",Refund,High,Negative
+"Hi team, I was promised a refund but nothing came This has been a poor experience.",Refund,High,Negative
+"Hi team, I was promised a refund but nothing came This has been a poor experience. Please respond ASAP.",Refund,Urgent,Negative
+Please help: I was promised a refund but nothing came This is frustrating.,Refund,High,Negative
+"Hi team, I was promised a refund but nothing came.",Refund,Normal,Neutral
+I was promised a refund but nothing came Waiting for your reply.,Refund,Normal,Neutral
+Please help: I was promised a refund but nothing came Waiting for your reply.,Refund,Normal,Neutral
+Please help: I was promised a refund but nothing came.,Refund,Normal,Neutral
+"Hi team, I was promised a refund but nothing came",Refund,Normal,Neutral
+"Hello, I was promised a refund but nothing came",Refund,Normal,Neutral
+"Good morning, I was promised a refund but nothing came Waiting for your reply.",Refund,Normal,Neutral
+"I was promised a refund but nothing came Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hi, I was promised a refund but nothing came Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Please help: I was promised a refund but nothing came Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Hi team, I was promised a refund but nothing came Love the service, thanks!",Refund,Low,Positive
+"Hello, I was promised a refund but nothing came Thank you, great product!",Refund,Low,Positive
+"Good morning, I was promised a refund but nothing came Appreciate your help, thank you.",Refund,Low,Positive
+"Hello, I was promised a refund but nothing came Thanks a lot, really happy with the team.",Refund,Low,Positive
+"Please help: I want to cancel my order Worst service ever, I am fed up.",Refund,Urgent,Angry
+"Hi, I want to cancel my order Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hi team, I want to cancel my order This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Please help: I want to cancel my order Terrible support, this is a scam.",Refund,Urgent,Angry
+"Hi team, I want to cancel my order Terrible support, this is a scam.",Refund,Urgent,Angry
+Please help: I want to cancel my order This is unacceptable and I am furious!,Refund,Urgent,Angry
+"Good morning, I want to cancel my order This is ridiculous, nobody replies to me.",Refund,Urgent,Angry
+"Hi team, I want to cancel my order This is frustrating.",Refund,High,Negative
+Please help: I want to cancel my order I am disappointed with this.,Refund,High,Negative
+"Hello, I want to cancel my order This is frustrating. Please respond ASAP.",Refund,Urgent,Negative
+"Hi, I want to cancel my order This has been a poor experience.",Refund,High,Negative
+"Hello, I want to cancel my order I am not happy about this. Please respond ASAP.",Refund,Urgent,Negative
+"Hello, I want to cancel my order This has been a poor experience.",Refund,High,Negative
+"Good morning, I want to cancel my order I am not happy about this.",Refund,High,Negative
+Please help: I want to cancel my order This has been a poor experience.,Refund,High,Negative
+"Good morning, I want to cancel my order Please check. Please respond ASAP.",Refund,Urgent,Neutral
+"Hi, I want to cancel my order Can you help? Please respond ASAP.",Refund,Urgent,Neutral
+"Good morning, I want to cancel my order",Refund,Normal,Neutral
+I want to cancel my order,Refund,Normal,Neutral
+Please help: I want to cancel my order.,Refund,Normal,Neutral
+"Hello, I want to cancel my order",Refund,Normal,Neutral
+I want to cancel my order.,Refund,Normal,Neutral
+"Hi team, I want to cancel my order",Refund,Normal,Neutral
+"Good morning, I want to cancel my order Appreciate your help, thank you.",Refund,Low,Positive
+"I want to cancel my order Thank you, great product!",Refund,Low,Positive
+"Hi, I want to cancel my order Appreciate your help, thank you.",Refund,Low,Positive
+"Hi, I want to cancel my order Love the service, thanks!",Refund,Low,Positive
+"I want to cancel my order Appreciate your help, thank you.",Refund,Low,Positive
